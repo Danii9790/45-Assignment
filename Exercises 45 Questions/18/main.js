@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let place = [`dehli`, `malaysia`, `america`, `london`, `dubai`];
+console.log(`Orginal ` + place);
+console.log(`copy ` + [...place].sort());
+console.log(`Orginal ` + place);
+console.log(`copy ` + [...place].sort().reverse());
+console.log(`Original ` + place);
+console.log(`copy ` + [...place].sort().reverse());
+console.log(`copy ` + [...place].sort().reverse());
+console.log(`Original ` + place);
+console.log(`Original ` + place.sort().reverse());
